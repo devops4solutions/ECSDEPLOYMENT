@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+   web:
+    build:
+      context: .       
+    image: tomcat
+    ports:
+      - '8082:8080'     
