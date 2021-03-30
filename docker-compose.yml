@@ -1,8 +1,7 @@
-version: '3.3'
+version: '3.4'
 services:
-   web:
-    build:
-      context: .       
-    image: tomcat
+  web:
+    image: public.ecr.aws/w0f5g4k6/javaweb
     ports:
-      - '8082:8080'     
+      - 8080
+  
